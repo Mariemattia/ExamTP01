@@ -3,4 +3,9 @@ HEAD
 
 1- from sklearn.datasets import load load_iris
 2- from sklearn.model_selection import train_test_split 
+<<<<<<< HEAD
  scripto1
+=======
+4- X, y=load_iris(return_X_y=True);X_train,X_test,y_tarin,y_test=train_test_split(X,ytest_size=0.2)
+5- model =RandomForestClassifier().fit(X_train, y_train); print(Accuracy:,model.score(X_test,y_test))
+>>>>>>> scripto1
